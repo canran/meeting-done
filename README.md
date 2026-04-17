@@ -107,6 +107,6 @@ cp -r meeting-done ~/.qclaw/skills/meeting-done
 
 - ✅ 个人学习、研究、教育目的免费使用
 - ❌ **商业使用需事先获得授权并付费**
-- 📧 商业授权请联系：[your@email.com](mailto:your@email.com)
+- 📧 商业授权请联系：[GitHub Issues](https://github.com/canran/meeting-done/issues)
 
 详见 [LICENSE](./LICENSE)
