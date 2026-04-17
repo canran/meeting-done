@@ -37,15 +37,16 @@
 在 `SKILL.md` 中修改以下配置：
 
 ```yaml
-# Excel 索引表（会议记录沉淀）
-file_id: efdQuvEloWVn  # 替换为你的索引表 file_id
-sheet_id: BB08J2
+# === 腾讯文档 ===
+EXCEL_FILE_ID: ""      # 腾讯文档 Excel 索引表的 file_id
+EXCEL_SHEET_ID: ""      # 索引表的工作表 ID
 
-# 发件邮箱
-邮箱: 524808370@qq.com  # 替换为你的 SMTP 邮箱
+# === 邮件 ===
+SMTP_EMAIL: ""          # 你的发件邮箱地址
+SMTP_SCRIPT: "~/Library/Application Support/QClaw/openclaw/config/skills/imap-smtp-email/scripts/smtp.js"
 
-# 联系人库路径（相对 workspace）
-memory-tdai/联系人.md
+# === 联系人库 ===
+CONTACTS_FILE: "memory-tdai/联系人.md"   # 参会人姓名→邮箱映射文件
 ```
 
 ## 文件结构
@@ -100,6 +101,12 @@ cp -r meeting-done ~/.qclaw/skills/meeting-done
 └──────────────────┘
 ```
 
-## License
+## 许可证
 
-MIT
+本项目采用专有许可证：
+
+- ✅ 个人学习、研究、教育目的免费使用
+- ❌ **商业使用需事先获得授权并付费**
+- 📧 商业授权请联系：[your@email.com](mailto:your@email.com)
+
+详见 [LICENSE](./LICENSE)
